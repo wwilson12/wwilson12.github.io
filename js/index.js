@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	$('#words').focus();
     $("form").submit(function(){
         searchDragDictionary();
     });
@@ -119,6 +120,7 @@ function searchDragDictionary(){
         alert('Not in our dictionary yet, hunty!');//throw an error
         $( '.deftxt' ).remove();
     }
+    $('#words').val('');
     event.preventDefault();
 }
         
