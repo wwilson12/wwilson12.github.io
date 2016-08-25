@@ -116,8 +116,8 @@ function searchDragDictionary(){
     }
     
     else {
-        alert('Not in our dictionary yet, hunty!');
-        $( '.deftxt' ).remove();//throw an error
+        alert('Not in our dictionary yet, hunty!');//throw an error
+        $( '.deftxt' ).remove();
     }
     event.preventDefault();
 }
